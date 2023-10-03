@@ -1,0 +1,349 @@
+/*header*/
+.header {
+    background-color: #F1F1F1;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header .row .item {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.header .row .item a {
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.header .row .item a:hover {
+    text-decoration: none;
+    background-color: #CCCCCC;
+}
+
+/*end header*/
+/*section 1*/
+.section-1 {
+    margin-bottom: 60px;
+}
+.section-1 .container .content {
+    text-align: center;
+}
+.section-1 .container .content .title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.section-1 .container .content .sub-title {
+    font-size: 18px;
+    margin-bottom: 30px
+}
+
+.section-1 .container .row {
+    justify-content: center;
+}
+
+/*end section 1*/
+/*section 2*/
+.section-2 {
+    margin-bottom: 60px;
+}
+
+.section-2 .container .headsc-2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-2 .container .headsc-2 .title {
+    font-size: 30px;
+    font-size: 500;
+    margin-bottom: 10px;
+}
+
+.section-2 .container .headsc-2 .box {
+    width: 214px;
+    height: 4px;
+    background-color: #616161;
+    position: absolute;
+    right: calc(50% - 107px);
+}
+
+.section-2 .container .row .box-1 {
+    background-color: #F1F1F1;
+}
+
+.section-2 .container .row .box-2 {
+    background-color: #9E9E9E;
+}
+
+.section-2 .container .row .box-3 {
+    background-color: #616161;
+    color: white;
+}
+
+.section-2 .container .row .box-4 {
+    background-color: #000000;
+    color: white;
+}
+
+.section-2 .container .row .content {
+    padding: 30px 15px;
+}
+
+.section-2 .container .row .content .title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.section-2 .container .row .content .desc {
+    font-size: 14px;
+}
+
+/*end section 2*/
+/*section 3*/
+.section-3 {
+    margin-bottom: 60px;
+}
+
+.section-3 .container .headsc-3 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-3 .container .headsc-3 .title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.section-3 .container .headsc-3 .desc {
+    font-size: 15px;
+    font-weight: 600;
+}
+.section-3 .container .row .box{
+    margin-bottom: 20px;
+}
+.section-3 .container .row .box .content {
+    text-align: center;
+    transition: all 0.3s;
+}
+.section-3 .container .row .box .content:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section-3 .container .row .box .content .title {
+    color: white;
+    padding: 30px 0px;
+    background-color: #000000;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.section-3 .container .row .box .content .pro {
+    background-color: #616161;
+}
+
+.section-3 .container .row .box .content .common {
+    padding: 20px 0px;
+    border: 1px solid #9e9e9e4f;
+    font-size: 18px;
+}
+
+.section-3 .container .row .box .content .month .title-month {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.section-3 .container .row .box .content .month .desc-month {
+    font-size: 14px;
+    color: #616161;
+    font-weight: 500;
+}
+
+.section-3 .container .row .box .content .sign {
+    background-color: #E4E4E4;
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 .container .row .box .content .sign .content {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 30%;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.section-3 .container .row .box .content .sign .content:hover {
+    background-color: #CCCCCC;
+    color: #000000;
+}
+
+/*end section 3*/
+/*section 4*/
+.section-4 {
+    margin-bottom: 60px;
+}
+
+.section-4 .container .headsc-4 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-4 .container .headsc-4 .title {
+    font-size: 30px;
+    font-size: 500;
+    margin-bottom: 10px;
+}
+.section-4 .container .headsc-4 .box {
+    width: 210px;
+    height: 4px;
+    background-color: #616161;
+    position: absolute;
+    right: calc(50% - 105px);
+}
+.section-4 .container .row .item{
+    margin-bottom: 20px;
+}
+.section-4 .container .row .item .content .image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0 ;
+}
+.section-4 .container .row .item .content{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+.section-4 .container .row .item .content .content-1{
+    padding: 20px 20px;
+}
+.section-4 .container .row .item .content .name{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section-4 .container .row .item .content .place{
+    font-size: 15px;
+    color: #616161;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section-4 .container .row .item .content .desc{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section-4 .container .row .item .content .contact{
+    text-align: center;
+    background-color: #F1F1F1;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.section-4 .container .row .item .content .contact:hover{
+    background-color: #CCCCCC;
+}
+/*end section 4*/
+/*section 5*/
+.section-5 {
+    margin-bottom: 60px;
+}
+
+.section-5 .container .headsc-5 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-5 .container .headsc-5 .title {
+    font-size: 30px;
+    font-size: 500;
+    margin-bottom: 10px;
+}
+.section-5 .container .headsc-5 .box {
+    width: 180px;
+    height: 6px;
+    background-color: #616161;
+    position: absolute;
+    right: calc(50% - 90px);
+}
+.section-5 .container form .label{
+    font-size: 15px;
+    font-weight: 600;
+}
+.section-5 .container form .input input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.section-5 .container form .input input:hover{
+    border: 2px solid #000000;
+}
+.section-5 .container form .submit{
+    width: 100%;
+    background-color: #000000;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.section-5 .container form .submit:hover{
+    background-color: #CCCCCC;
+    color: #000000;
+    outline: none;
+    border: none;
+}
+/*end section 5*/
+/*section 6*/
+.section-6{
+    background-color: #F1F1F1;
+}
+.section-6 .content{
+    text-align: center;
+    padding: 30px 0px;
+}
+.section-6 .content .title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section-6 .content .tap a{
+    padding: 10px 30px 10px 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.section-6 .content .tap a:hover{
+    text-decoration: none;
+    background-color: #9E9E9E;
+    color: black;
+}
+.section-6 .content ul{
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.section-6 .content ul li{
+    font-size: 20px;
+    margin-right: 10px;
+}
+/*end section 6*/
