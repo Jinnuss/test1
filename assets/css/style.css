@@ -12,7 +12,9 @@
     font-weight: 500;
     transition: all 0.3s;
 }
-
+.box{
+    scroll-margin-top: 47px;
+}
 .header .row .item a {
     color: black;
     display: inline-block;
